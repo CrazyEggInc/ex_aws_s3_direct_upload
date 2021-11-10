@@ -17,7 +17,7 @@ defmodule ExAws.S3.DirectUpload.Mixfile do
 
   # Configuration for the OTP application
   def application do
-    [extra_applications: [:logger]]
+    [extra_applications: [:logger, :crypto]]
   end
 
   # Dependencies
